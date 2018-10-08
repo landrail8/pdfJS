@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>   
+	<head> 
+	  <meta charset="utf-8" />
+    <title>PDF mobile</title>
+  </head>
+  <body>
+
+    <label for="region">Регион</label>
+    <div class="custom-select">
+      <select id="region" class="form-select" onchange="onchangeRegion(event);">		
+        
+      </select>	
+    </div>
+
+    <label for="journal">Журнал</label>
+    <div class="custom-select">
+      <select id="journal" class="form-select" onchange="onchangeJournal(event);">		
+        
+      </select>	
+    </div>
+
+    <label for="date">Дата</label>
+    <input type="date" id="date" name="date" onchange="onchangeDate(event);"
+      min="1925-01-01" value="2018-09-01" />
+    <span class="validity"></span>
+
+
+    <button type="button" onclick="showJournals()">
+      Показать журналы
+    </button>
+
+  </body>
+  <script src="https://s2.stc.all.kpcdn.net/best/test/shurygin/pdfMobile/index.js"></script>
+</html>
+ 

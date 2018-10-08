@@ -1,0 +1,25 @@
+{
+    "remotePath": "/best.kp.ru/best/test/shurygin/pdfMobile",
+    "host": "10.134.255.104",
+    "username": "shurygin",
+    "password": "1deTQH8S",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": true,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store",
+        "\\.remote-sync.json"
+    ],
+    "generatedFiles": {
+        "uploadOnSave": true,
+        "extensionsToInclude": [".js", ".html"],
+        "path": ""
+    }
+}
